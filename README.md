@@ -16,20 +16,7 @@ This tool:
 
 ## 📦 Project Structure
 
-project/
-├── public/                # Static files
-├── src/
-│   ├── components/        # UI components
-│   ├── context/           # React context for state
-│   ├── pages/             # Settings, Dashboard, Details
-│   ├── electron/          # System utility logic
-│   │   ├── systemChecks.js  # Performs all checks
-│   │   └── reporter.js    # Sends updates
-│   └── main.js            # Electron entrypoint
-├── package.json           # Project dependencies
-└── vite.config.ts         # Build config
-Copy
-Edit
+project/ { public/ (# Static files), src/ { components/ (# UI components), context/ (# React context for state), pages/ (# Settings, Dashboard, Details), electron/ { systemChecks.js (# Performs all checks), reporter.js (# Sends updates) }, main.js (# Electron entrypoint) }, package.json (# Project dependencies), vite.config.ts (# Build config) }
 
 ---
 
