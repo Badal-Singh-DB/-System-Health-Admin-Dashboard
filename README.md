@@ -14,15 +14,7 @@ This tool:
 
 ---
 
-## 📦 Project Structure
-
-project/ { public/ (# Static files), src/ { components/ (# UI components), context/ (# React context for state), pages/ (# Settings, Dashboard, Details), electron/ { systemChecks.js (# Performs all checks), reporter.js (# Sends updates) }, main.js (# Electron entrypoint) }, package.json (# Project dependencies), vite.config.ts (# Build config) }
-
----
-
 ## ⚙️ System Utility (Client)
-
-Located in: `src/electron/`
 
 ### ✅ Features:
 - ✅ Disk Encryption Check
