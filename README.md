@@ -29,6 +29,8 @@ project/
 ├── package.json # Project dependencies
 ├── vite.config.ts # Build config
 
+Copy
+Edit
 
 ---
 
